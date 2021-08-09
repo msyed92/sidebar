@@ -4,3 +4,9 @@ $("button").click(function () {
     $(".toggle").toggleClass("remove");
   }
 });
+
+$(window).resize(function () {
+  if ($(".sidebar").hasClass("show-sidebar")) {
+    $(".toggle").toggleClass("remove");
+  }
+});
