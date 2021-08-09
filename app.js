@@ -6,7 +6,7 @@ $("button").click(function () {
 });
 
 $(window).resize(function () {
-  if ($(".sidebar").hasClass("show-sidebar")) {
+  if ($(".sidebar").hasClass("show-sidebar") && $(window).width() < 700) {
     $(".toggle").addClass("remove");
   }
 });
