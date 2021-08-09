@@ -7,6 +7,6 @@ $("button").click(function () {
 
 $(window).resize(function () {
   if ($(".sidebar").hasClass("show-sidebar")) {
-    $(".toggle").toggleClass("remove");
+    $(".toggle").addClass("remove");
   }
 });
