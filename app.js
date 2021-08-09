@@ -4,3 +4,11 @@ $("button").click(function () {
     $(".toggle").toggleClass("remove");
   }
 });
+
+$(window).resize(function () {
+  if ($(window).width() < 700) {
+    $(".toggle").addClass("remove");
+  } else {
+    $(".toggle").removeClass("remove");
+  }
+});
