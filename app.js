@@ -6,9 +6,10 @@ $("button").click(function () {
 });
 
 $(window).resize(function () {
-  if (($(window).width() < 700) && $(".sidebar").hasClass("show-sidebar")) {
+  if ($(window).width() < 700 && $(".sidebar").hasClass("show-sidebar")) {
     $(".toggle").addClass("remove");
   } else {
     $(".toggle").removeClass("remove");
   }
 });
+
