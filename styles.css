@@ -24,6 +24,10 @@ body {
   width: 100% !important;
 }
 
+.remove {
+  display: none;
+}
+
 @media screen and (min-width: 600px) {
   .show-sidebar {
     width: 300px !important;
@@ -41,6 +45,7 @@ ul {
 .social-icons a {
   text-decoration: none;
   padding-right: 10px;
+  color: black;
 }
 
 button {
@@ -94,6 +99,5 @@ button {
 }
 
 .social-icons {
-  margin-top: 40%;
   padding: 10% 0 10% 5%;
 }
