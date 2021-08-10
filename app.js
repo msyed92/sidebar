@@ -1,7 +1,3 @@
-$(".toggle").click(function () {
-  $(".sidebar").toggleClass("show-sidebar");
-});
-
-$(".close-btn").click(function () {
+$("button").click(function () {
   $(".sidebar").toggleClass("show-sidebar");
 });
